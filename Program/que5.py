@@ -5,16 +5,67 @@ print(type(list))
 for i in list :
     print(i)
 
-list[0] = "Hello Benchod !"
-print(list)
+# list[0] = "Hello Benchod !"
+# print(list)
 
-list.append("Hello Benchod !")
-print(list)
+# list.append("Hello Benchod !")
+# print(list)
 
-list.remove("Hello Benchod !")
-print(list)
+# list.remove("Hello Benchod !")
+# print(list)
 
-list.pop()
-print(list)
+# list.pop()
+# print(list)
 
-list.clear()
+# list.clear()
+
+# we can do slicing in list 
+# print(list[1 : 5 : 2])
+
+#list methods 
+nums = [1 , 2, 3,4,5 ]
+print(len(nums))
+# append method 
+nums.append(6)
+print("After appending")
+print(nums)
+
+# insert method 
+nums.insert(2 , 10)
+print("after insertions")
+print(nums)
+
+# remove method 
+nums.remove(10)
+print("after removing")
+print(nums)
+
+# pop method 
+nums.pop()
+print("after popping")
+print(nums)
+
+# clear method 
+nums.clear()
+print("after clearing")
+print(nums)
+
+# reverse method 
+nums.reverse()
+print("after reversing")
+print(nums)
+
+# sort method 
+nums.sort()
+print("after sorting")
+print(nums)
+
+# count method 
+nums.count(1)
+print("after counting")
+print(nums)
+
+# copy method 
+nums.copy()
+print("after copying")
+print(nums)                 
