@@ -5,22 +5,7 @@ print(type(list))
 for i in list :
     print(i)
 
-# list[0] = "Hello Benchod !"
-# print(list)
 
-# list.append("Hello Benchod !")
-# print(list)
-
-# list.remove("Hello Benchod !")
-# print(list)
-
-# list.pop()
-# print(list)
-
-# list.clear()
-
-# we can do slicing in list 
-# print(list[1 : 5 : 2])
 
 #list methods 
 nums = [1 , 2, 3,4,5 ]
